@@ -232,7 +232,7 @@ $(document).ready(function () {
         }
         else if (count === 4) {
             $("#image-holder").show();
-            $("#image-holder").html('<img src="assets/images/jacksparrow.gif">');
+            $("#image-holder").html('<img src="assets/images/jackSparrow.gif">');
         }
         else if (count === 5) {
             $("#image-holder").show();
