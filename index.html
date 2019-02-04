@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Movie Trivia Game | Homework 5</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+        crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Fahkwang" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+
+</head>
+
+<body>
+
+    <div class="container">
+        <row>
+            <div class="col-md-12">
+                <div>
+                    <img id="titleheader" src="assets/images/movieTriviaHeader.jpg">
+                </div>
+            </div>
+        </row>
+        <row>
+            <div class="col-md-12">
+                <h1>
+                    <div id="time-holder"></div>
+                </h1>
+            </div>
+        </row>
+        <row>
+            <div class="col-md-5"></div>
+            <div class="col-md-2">
+                <button type="button" class="btn btn-lg start">Start</button>
+            </div>
+            <div class="col-md-5"></div>
+        </row>
+        <row>
+            <div class="col-md-12">
+                <h2>
+                    <div id="question-holder"></div>
+                </h2>
+                <h2>
+                    <div id="answer-holder"></div>
+                </h2>
+            </div>
+        </row>
+        <row>
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                    <div id="image-holder"></div>
+            </div>
+            <div class="col-md-4"></div>
+        </row>
+        <row>
+            <div class="col-md-12 choices">
+                <button type="button" class="btn btn-lg" id="choice-holder-1"></button>
+            </div>
+            <row>
+                <div class="col-md-12 choices">
+                    <button type="button" class="btn btn-lg" id="choice-holder-2"></button>
+                </div>
+            </row>
+            <row>
+                <div class="col-md-12 choices">
+                    <button type="button" class="btn btn-lg" id="choice-holder-3"></button>
+                </div>
+            </row>
+            <row>
+                <div class="col-md-12 choices">
+                    <button type="button" class="btn btn-lg" id="choice-holder-4"></button>
+                </div>
+            </row>
+            <row>
+                <div class="col-md-4">
+                    <h3>
+                        <div id="correct-holder"></div>
+                    </h3>
+                </div>
+                <div class="col-md-4">
+                    <h3>
+                        <div id="incorrect-holder"></div>
+                    </h3>
+                </div>
+                <div class="col-md-4">
+                    <h3>
+                        <div id="unanswered-holder"></div>
+                    </h3>
+                </div>
+            </row>
+            <row>
+                <div class="col-md-2"></div>
+                <div class="col-md-8">
+                    <h2>
+                        <button type="button" class="btn btn-lg" id="restart-holder">Click Here to play again!</button>
+                    </h2>
+                </div>
+                <div class="col-md-2"></div>
+            </row>
+    </div>
+
+
+    <script src="assets/javascript/app.js"></script>
+
+
+</body>
+
+</html>
